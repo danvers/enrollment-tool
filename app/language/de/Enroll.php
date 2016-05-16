@@ -20,16 +20,8 @@ return array(
      * used for the option fields to select the course of studies or whatever option field you want.
      */
     'study_data' => array(
-        'mvkba' => 'BA Medienbildung',
-        'mvkma' => 'MA Medienbildung',
-        'cvba' => 'BA Computervisualistik',
-        'cvma' => 'MA Computervisualistik',
-        'infba' => 'BA Informatik',
-        'infma' => 'MA Informatik',
-        'biwba' => 'BA Bildungswissenschaft',
-        'biwma' => 'MA Bildungswissenschaft',
-        'gaba' => 'BA Germanistik',
-        'other' => 'anderer Studiengang'
+        'field_1' => 'Name for Option #1',
+        'field_2' => 'Name for Option #2'
     )
 
 );
