@@ -1,22 +1,23 @@
 <div class="container content">
-	<div class="row">
-		<div class="col-md-12">
+    <div class="row">
+        <div class="col-md-12">
 
-			<h1>404</h1>
+            <h1>404</h1>
 
-			<?= $error; ?>
+            <?php echo $data['error']; ?>
 
-			<hr />
+            <hr/>
 
-			<h3>The page you were looking for could not be found</h3>
-			<p>This could be the result of the page being removed, the name being changed or the page being temporarily unavailable</p>
-			<h3>Troubleshooting</h3>
+            <h3>Die angeforderte Seite wurde nicht gefunden!</h3>
+            <p>Das könnte daran liegen, dass die Seite entfernt wurde oder aufgrund von Bearbeitungen kurzzeitig nicht
+                abrufbar ist.</p>
+            <h3>Problemlösung</h3>
+            <ul>
+                <li>Haben Sie die URL manuell eingetragen, prüfen Sie bitte die Adresse</li>
+                <li>Gehen Sie zur <a href="<?php echo DIR; ?>">Startseite</a> und navigieren zu der gesuchten Seite.
+                </li>
+            </ul>
 
-			<ul>
-			  <li>If you spelled the URL manually, double check the spelling</li>
-			  <li>Go to our website's home page, and navigate to the content in question</li>
-			</ul>
-
-		</div>
-	</div>
+        </div>
+    </div>
 </div>
