@@ -1,2 +1,8 @@
-app/Core/Config.php
-.DS_Store
+.idea
+# Framework specific
+vendor/
+composer.lock
+app/Config.php
+
+# The developers Playground
+works
