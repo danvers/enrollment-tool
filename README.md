@@ -6,6 +6,12 @@ This is a simple registration tool for courses or other lists. It's based on the
 
 Full docs & tutorials concerning the nova framework are available at [novaframework.com](http://novaframework.com)
 
+## Dependencies
+
+ - php-export-data by Eli Dickinson (http://github.com/elidickinson/php-export-data)
+ - ExportDataExcel, based on Excel XML code from Excel_XML (http://github.com/oliverschwarz/php-excel) by Oliver Schwarz
+ - JQuery multiselect plugin based on Twitter Bootstrap (http://davidstutz.github.io/bootstrap-multiselect/)
+
 ##Requirements
 
 
