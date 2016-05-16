@@ -1,0 +1,34 @@
+#loginbox {
+    margin: auto;
+    max-width: 500px;
+    margin-top: 30px;
+}
+
+#loginbox > div:first-child {
+    padding-bottom: 10px;
+}
+
+#form > div {
+    margin-bottom: 25px;
+}
+
+#form > div:last-child {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.panel-body {
+    padding-top: 30px;
+}
+
+.login {
+    margin: auto;
+    max-width: 500px;
+    margin-top: 2%;
+}
+
+.error {
+    margin: auto;
+    margin-top: 2%;
+    max-width: 500px;
+}
