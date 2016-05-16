@@ -4,16 +4,15 @@ This is a simple registration tool for courses or other lists. It's based on the
 
 ## Documentation
 
-Full docs & tutorials are available at [novaframework.com](http://novaframework.com)
+Full docs & tutorials concerning the nova framework are available at [novaframework.com](http://novaframework.com)
 
 ##Requirements
 
- The framework requirements are limited
 
  - Apache Web Server or equivalent with mod rewrite support.
  - PHP 5.5 or greater is required
+ - A MySql Database is required for data storage and course management.
 
- Although a database is not required, if a database is to be used the system is designed to work with a MySQL database. The framework can be changed to work with another database type.
 
 ## Installation
 
