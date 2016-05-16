@@ -3,7 +3,7 @@
 <IfModule mod_rewrite.c>
 
 	RewriteEngine On
-	RewriteBase /
+	RewriteBase /anmeldung-neu-db/
 
 	# Force to exclude the trailing slash
 	RewriteCond %{REQUEST_FILENAME} !-d
