@@ -1,6 +1,11 @@
 <?php
 /**
- * Sample layout
+ * Created by PhpStorm.
+ * User: dan
+ * Date: 05.12.2015
+ * Time: 00:09
+ *
+ * @author Dan Verständig - dan@pixelspace.org
  */
 
 use Helpers\Hooks;

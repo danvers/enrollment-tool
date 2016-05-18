@@ -2,8 +2,10 @@
 /**
  * Created by PhpStorm.
  * User: dan
- * Date: 05.12.2015
- * Time: 00:09
+ * Date: 13.03.2016
+ * Time: 13:21
+ *
+ * @author Dan Verständig - dan@pixelspace.org
  */
 
 return array(

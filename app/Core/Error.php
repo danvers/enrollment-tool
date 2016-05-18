@@ -43,6 +43,7 @@ class Error extends Controller
      */
     public static function display($error, $class = 'alert alert-danger')
     {
+        $row = null;
         if (is_array($error)) {
             foreach ($error as $error) {
                 $row .= "<div class='$class'>$error</div>";

@@ -1,22 +1,20 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: dan
+ * Date: 02.12.2015
+ * Time: 16:35
+ *
+ * @author Dan Verständig - dan@pixelspace.org
+ */
+?>
 <div class="container content">
     <div class="row">
         <div class="col-md-12">
 
-            <h1>404</h1>
-
-            <?php echo $data['error']; ?>
-
+            <h1><?php echo Core\Language::show('title', 'Error'); ?></h1>
             <hr/>
-
-            <h3>Die angeforderte Seite wurde nicht gefunden!</h3>
-            <p>Das könnte daran liegen, dass die Seite entfernt wurde oder aufgrund von Bearbeitungen kurzzeitig nicht
-                abrufbar ist.</p>
-            <h3>Problemlösung</h3>
-            <ul>
-                <li>Haben Sie die URL manuell eingetragen, prüfen Sie bitte die Adresse</li>
-                <li>Gehen Sie zur <a href="<?php echo DIR; ?>">Startseite</a> und navigieren zu der gesuchten Seite.
-                </li>
-            </ul>
+            <?php echo sprintf(Core\Language::show('error_text', 'Error'), DIR); ?>
 
         </div>
     </div>

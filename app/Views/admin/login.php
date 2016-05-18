@@ -1,4 +1,12 @@
 <?php
+/**
+ * Created by PhpStorm.
+ * User: dan
+ * Date: 02.12.2015
+ * Time: 16:35
+ *
+ * @author Dan Verständig - dan@pixelspace.org
+ */
 if (isset($error)) {
     ?>
     <div class="error login">

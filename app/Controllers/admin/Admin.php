@@ -4,6 +4,8 @@
  * User: dan
  * Date: 28.11.2015
  * Time: 21:44
+ *
+ * @author Dan Verständig - dan@pixelspace.org
  */
 
 namespace Controllers\admin;

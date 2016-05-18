@@ -1,4 +1,11 @@
 <?php
+/**
+ * Created by PhpStorm.
+ * User: dan
+ * @author Dan Verständig - dan@pixelspace.org
+ * Date: 05.12.2015
+ * Time: 00:09
+ */
 
 namespace models;
 

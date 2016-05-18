@@ -2,6 +2,7 @@
 /**
  * Created by PhpStorm.
  * User: dan
+ * @author Dan Verständig - dan@pixelspace.org
  * Date: 29.11.2015
  * Time: 16:47
  */

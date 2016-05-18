@@ -4,6 +4,8 @@
  * User: dan
  * Date: 27.11.2015
  * Time: 22:51
+ *
+ * @author Dan Verständig - dan@pixelspace.org
  */
 
 namespace Controllers;
@@ -45,7 +47,6 @@ class Enrollment extends Controller
 
     public function course($title)
     {
-
         $list = $this->enrollments->getId($title);
 
         if ((!empty($list->start_date) && $list->sd > (time() + date('Z'))) || (!empty($list->end_date) && $list->ed < (time() + date('Z')))) {

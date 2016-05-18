@@ -4,6 +4,8 @@
  * User: dan
  * Date: 02.12.2015
  * Time: 16:35
+ * 
+ * @author Dan Verständig - dan@pixelspace.org
  */
 use Helpers\Assets;
 use Helpers\Hooks;

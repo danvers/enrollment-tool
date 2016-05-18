@@ -1,5 +1,12 @@
 <?php
-
+/**
+ * Created by PhpStorm.
+ * User: dan
+ * Date: 13.02.2016
+ * Time: 14:13
+ *
+ * @author Dan Verständig - dan@pixelspace.org
+ */
 return array(
 
     //index

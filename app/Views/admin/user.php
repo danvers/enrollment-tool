@@ -1,3 +1,13 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: dan
+ * Date: 02.12.2015
+ * Time: 16:35
+ *
+ * @author Dan Verständig - dan@pixelspace.org
+ */
+?>
 <ul class="breadcrumb">
     <li><a href='<?php echo DIR; ?>admin'><?php echo \Core\Language::show('admin', 'Breadcrumb'); ?></a> <span
             class="divider"></span></li>

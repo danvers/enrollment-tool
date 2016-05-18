@@ -1,7 +1,4 @@
 <?php
-/**
- * Sample layout
- */
 
 use Helpers\Hooks;
 

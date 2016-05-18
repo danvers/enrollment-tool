@@ -1,5 +1,12 @@
 <?php
-
+/**
+ * Created by PhpStorm.
+ * User: dan
+ * Date: 13.02.2016
+ * Time: 14:19
+ *
+ * @author Dan Verständig - dan@pixelspace.org
+ */
 return array(
 
     'overview' => 'Übersicht der Anmeldungen <small>(alphabetisch sortiert)</small>',

@@ -4,6 +4,8 @@
  * User: dan
  * Date: 05.12.2015
  * Time: 00:09
+ *
+ * @author Dan Verständig - dan@pixelspace.org
  */
 
 return array(

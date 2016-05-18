@@ -4,6 +4,8 @@
  * User: dan
  * Date: 29.11.2015
  * Time: 16:04
+ *
+ * @author Dan Verständig - dan@pixelspace.org
  */
 use Helpers\Assets;
 use Helpers\Form;
@@ -262,7 +264,7 @@ echo Form::close();
         ],
         toolbar1: "bold italic underline strikethrough | alignleft aligncenter alignright alignjustify | undo redo | link unlink anchor code"
     });
-    //document ready function einbauen und dann hochlegen
+
     $(document).ready(function () {
         $('#dtpstart').datetimepicker({
             useCurrent: false, //Important! See issue #1075
