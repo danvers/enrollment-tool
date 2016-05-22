@@ -5,12 +5,13 @@ This is a simple registration tool for courses or other lists. It's based on the
 ## Documentation
 
 Full docs & tutorials concerning the nova framework are available at [novaframework.com](http://novaframework.com)
+For questions and hints please contact me at [pixelspace.org] (https://pixelspace.org)
 
 ##Requirements
 
  - Apache Web Server or equivalent with mod rewrite support.
- - PHP 5.5 or greater is required
- - A MySql Database is required for data storage and course management.
+ - PHP 5.5 or newer is required.
+ - A MySql database is required for data storage and course management.
 
 ## Installation
 
