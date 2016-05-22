@@ -54,10 +54,14 @@ $hooks->run('afterBody');
 $listclass = '';
 $userclass = '';
 $homeclass = '';
+$setclass = '';
 if (isset($_GET) && sizeof($_GET) > 0) {
     foreach ($_GET as $v => $k) {
         if (strpos($v, 'admin/user') === 0) {
             $userclass = 'class="active"';
+            $listclass = '';
+        } elseif (strpos($v, 'admin/settings') === 0) {
+            $setclass = 'class="active"';
             $listclass = '';
         } elseif (strpos($v, 'admin/list') === 0 || isset($_GET['admin'])) {
             $userclass = '';
@@ -65,6 +69,7 @@ if (isset($_GET) && sizeof($_GET) > 0) {
         } elseif (strpos($v, 'admin') === false) {
             $homeclass = 'class="active"';
         }
+
     }
 } else {
     $homeclass = 'class="active"';
@@ -86,14 +91,25 @@ if (isset($_GET) && sizeof($_GET) > 0) {
                 </div>
                 <div id="navbarCollapse" class="collapse navbar-collapse">
                     <ul class="nav navbar-nav">
-                        <li <?php echo $homeclass; ?>><a href="<?php echo DIR; ?>">Home</a></li>
-                        <li <?php echo $listclass; ?>><a href="<?php echo DIR; ?>admin/list/">Kurse</a></li>
-                        <li <?php echo $userclass; ?>><a href="<?php echo DIR; ?>admin/user/">Benutzer</a></li>
+                        <li <?php echo $homeclass; ?>><a
+                                href="<?php echo DIR; ?>"><?php echo \Core\Language::show('nav_home', 'admin/Admin'); ?></a>
+                        </li>
+                        <li <?php echo $listclass; ?>><a
+                                href="<?php echo DIR; ?>admin/list/"><?php echo \Core\Language::show('nav_lists', 'admin/Admin'); ?></a>
+                        </li>
+                        <li <?php echo $userclass; ?>><a
+                                href="<?php echo DIR; ?>admin/user/"><?php echo \Core\Language::show('nav_users', 'admin/Admin'); ?></a>
+                        </li>
+
+                        <li <?php echo $setclass; ?>><a
+                                href="<?php echo DIR; ?>admin/settings/"><?php echo \Core\Language::show('nav_settings', 'admin/Admin'); ?>
+
+                            </a></li>
 
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="<?php echo DIR; ?>admin/logout"><span class="glyphicon glyphicon-log-out"></span>
-                                Logout</a></li>
+                                <?php echo \Core\Language::show('nav_logout', 'admin/Admin'); ?></a></li>
                     </ul>
                 </div>
             </nav>

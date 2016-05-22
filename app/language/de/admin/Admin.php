@@ -15,6 +15,15 @@ return array(
     'title_login' => 'Login',
     'title_overview' => 'Übersicht der Kurse',
 
+    'title_settings' => 'Einstellungen',
+
+    'nav_home' => 'Home',
+    'nav_users' => 'Benutzer',
+    'nav_lists' => 'Kurse',
+    'nav_settings' => 'Einstellungen',
+    'nav_logout' => 'Abmelden',
+
+    'label_description' => 'Text für die Startseite anpassen',
     //buttons
     'button_login' => 'Anmelden',
     'back' => 'Zurück',

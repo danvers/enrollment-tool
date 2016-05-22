@@ -4,6 +4,8 @@
  * User: dan
  * Date: 29.11.2015
  * Time: 17:14
+ * 
+ * @author Dan Verständig - dan@pixelspace.org
  */
 use Helpers\Assets;
 use Helpers\Form;

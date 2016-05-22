@@ -26,6 +26,8 @@ Router::any('admin/user/edit/(:num)', '\Controllers\admin\Users@edit');
 Router::any('admin/user/delete/(:num)', '\Controllers\admin\Users@delete');
 
 Router::any('admin/list', '\Controllers\admin\Admin@index');
+Router::any('admin/settings', '\Controllers\admin\Admin@settings');
+
 Router::any('admin/list/add', '\Controllers\admin\Listing@add');
 Router::any('admin/list/edit/(:num)', '\Controllers\admin\Listing@edit');
 Router::any('admin/list/delete/(:num)', '\Controllers\admin\Listing@delete');

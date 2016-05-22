@@ -11,6 +11,9 @@ body {
     margin-top: 20px;
 }
 
+.settings {
+    margin: 0 15px;
+}
 .wrapper {
     clear: both;
 }

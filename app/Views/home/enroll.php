@@ -1,4 +1,12 @@
 <?php
+/**
+ * Created by PhpStorm.
+ * User: dan
+ * Date: 02.12.2015
+ * Time: 16:35
+ *
+ * @author Dan Verständig - dan@pixelspace.org
+ */
 use Core\Language;
 use Helpers\Form;
 use Helpers\MyFormElements;
@@ -154,6 +162,7 @@ echo \Core\Error::display($data['error']);
     echo MyFormElements::drawWrapper($params, 'select');
 
     if ($data['active_lists'] > 1) {
+
         $params = array(
             $cb_data => array(
                 'label' => '<abbr title="' . Language::show('abbr_session', 'Enroll') . '">' . Language::show('hint_session', 'Enroll') . ' </abbr>',
