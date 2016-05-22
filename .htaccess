@@ -3,7 +3,7 @@
 <IfModule mod_rewrite.c>
 
 	RewriteEngine On
-	RewriteBase /enrollment-tool
+	RewriteBase /enrollment-tool/
 
 	# Force to exclude the trailing slash
 	RewriteCond %{REQUEST_FILENAME} !-d
