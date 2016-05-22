@@ -5,6 +5,7 @@ This is a simple registration tool for courses or other lists. It's based on the
 ## Documentation
 
 Full docs & tutorials concerning the nova framework are available at [novaframework.com](http://novaframework.com)
+
 For questions and hints please contact me at [pixelspace.org] (https://pixelspace.org)
 
 ##Requirements
