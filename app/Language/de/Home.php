@@ -11,7 +11,7 @@ return array(
 
     //index
     'home_text' => 'Willkommen',
-    'home_message' => '<p>test</p><p>&nbsp;</p>',
+	'home_message' => '<p>Die Anmeldungen kann man hier einsehen {dieser Text kann auch ge&auml;ndert werden, yay...}.</p>',
     'no_entries' => 'Derzeit stehen keine Kurse für eine Einschreibung zur Verfügung.',
     'th_title' => 'Titel',
     'th_lk' => 'Lehrkraft',

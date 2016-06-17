@@ -49,7 +49,7 @@ if (\Helpers\Session::get('message')) {
     ?>
     <div>
         <?php
-        if ($data['list']->public == 1 && (substr($_SERVER['REMOTE_ADDR'], 0, 7) === '141.44.' || \Helpers\Session::get('loggedin'))) {
+        if ($data['list']->public == 1 || \Helpers\Session::get('loggedin')) {
             ?>
             <p class="pull-right text-right">
                 <strong><?php echo Language::show('th_entries', 'Home'); ?></strong> <?php echo sizeof($data['entries']); ?>
@@ -67,7 +67,7 @@ if (\Helpers\Session::get('message')) {
 </div>
 
 <?php
-if ($data['list']->public == 1 && (substr($_SERVER['REMOTE_ADDR'], 0, 7) === '141.44.' || \Helpers\Session::get('loggedin'))) {
+if ($data['list']->public == 1 || \Helpers\Session::get('loggedin')) {
 
     if (sizeof($data['entries']) > 0) {
         if (sizeof($data['entries']) > 10) {
