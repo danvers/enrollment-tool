@@ -8,7 +8,7 @@ Full docs & tutorials concerning the nova framework are available at [novaframew
 
 For questions and hints please contact me at [pixelspace.org] (https://pixelspace.org)
 
-##Requirements
+## Requirements
 
  - Apache Web Server or equivalent with mod rewrite support.
  - PHP 5.5 or newer is required.
