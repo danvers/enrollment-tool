@@ -12,17 +12,12 @@ namespace models;
 class Enrollment extends \Core\Model
 {
 
-    public function getLists($showAll = false, $order = false)
+    public function getLists($active = false)
     {
         $show = null;
 
-        if ($showAll) {
-            /*
-             * Mysql Server = UTC
-             * Application timezone = Europe/Berlin +01:00
-             */
-            //$show = 'WHERE visible = 1';
-            $show = 'WHERE visible = 1 AND (start_date IS NULL OR start_date <= NOW() + INTERVAL 1 HOUR AND (end_date IS NULL OR end_date >= NOW() + INTERVAL 1 HOUR ) )';
+        if ($active) {
+            $show = 'WHERE visible = 1 AND (start_date IS NULL OR start_date <= NOW() AND (end_date IS NULL OR end_date >= NOW() ) )';
         }
         return $this->db->select("SELECT course.*, COUNT(etc.entry_id) as entries FROM " . PREFIX . "lists course
                                     LEFT JOIN " . PREFIX . "entries_to_courses etc ON (course.id = etc.course_id)

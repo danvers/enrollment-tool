@@ -35,7 +35,7 @@ class Admin extends \Core\Controller
     {
 
         $data['title'] = Language::show('title_overview', 'admin/Admin');
-        $data['list_info'] = $this->enrollments->getLists(false, true);
+        $data['list_info'] = $this->enrollments->getLists(false);
 
         View::renderTemplate('header', $data);
         View::render('admin/admin', $data);
@@ -68,7 +68,7 @@ class Admin extends \Core\Controller
         }
 
         $data['title'] = Language::show('title_settings', 'admin/Admin');
-        $data['list_info'] = $this->enrollments->getLists(false, true);
+        $data['list_info'] = $this->enrollments->getLists(false);
 
         View::renderTemplate('header', $data);
         View::render('admin/settings', $data);
